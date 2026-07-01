@@ -23,5 +23,5 @@ jobs:
     - name: Deploy website
       uses: azure/webapps-deploy@v3
       with:
-        app-name: my-static-site
+        app-name: static-site
         package: .
